@@ -1,0 +1,21 @@
+{
+    "name": "root/app",
+    "authors": [
+        {
+            "name": "dmitriy",
+            "email": "test@test.com"
+        }
+    ],
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^7.4",
+        "slim/psr7": "^0.6.0",
+        "slim/slim": "^4.3"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    }
+}
